@@ -1,0 +1,33 @@
+{
+  "name": "Airwolf",
+  "version": "0.0.1",
+  "main": "app.js",
+  "description": "Threshold based grade alerting system",
+  "author": "Josh Orr <jgorr@instructure.com>, Cameron Sutter <camerons@instructure.com>",
+  "contributors": [],
+  "scripts": {
+    "start": "node compiled/app.js",
+    "compile": "babel app.js -o compiled/app.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-runtime": "^6.5.0",
+    "lodash": "^4.4.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "eslint": "~1.0.0"
+  },
+  "private": true,
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/apidoc/",
+      "/compiled/"
+    ]
+  }
+}
