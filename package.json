@@ -1,9 +1,9 @@
 {
-  "name": "Airwolf",
+  "name": "programmingCompetition",
   "version": "0.0.1",
   "main": "app.js",
-  "description": "Threshold based grade alerting system",
-  "author": "Josh Orr <jgorr@instructure.com>, Cameron Sutter <camerons@instructure.com>",
+  "description": "",
+  "author": "",
   "contributors": [],
   "scripts": {
     "start": "node compiled/app.js",
